@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App.jsx';
+import Form from './Form.jsx';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import NewForm1 from './NewForm1.jsx';
+import NewForm2 from './NewForm2.jsx';
+import NewForm3 from './NewForm3.jsx';
 
-ReactDOM.render(
-  <React.StrictMode>
+
+
+ReactDOM.render (
+  <>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    {/* <Form /> */}
+    {/* <NewForm1 /> */}
+    {/* <NewForm3 /> */}
+  </>
+  ,document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
